@@ -29,10 +29,11 @@ class HomeAppBar extends StatelessWidget {
           ),
           Spacer(),
           badges.Badge(
-            badgeContent: Text('e-commerce', style: TextStyle(color: Colors.red)),
+            badgeContent: Text('2', style: TextStyle(color: Colors.orange)),
             child: IconButton(
               icon: Icon(Icons.shopping_cart),
               onPressed: null,
+              mouseCursor: MouseCursor.defer,
             ),
           ),
         ],
