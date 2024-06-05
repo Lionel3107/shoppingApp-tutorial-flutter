@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
           HomeAppBar(),
           Container(
               // Temporary height
-              height: 500,
+              // height: 500,
               padding: EdgeInsets.only(top: 15),
               decoration: const BoxDecoration(
                   color: Color(0xFFEDECF2),
@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         const Icon(
                           Icons.camera_alt,
                           color: Color(0xFF4C53A5),
@@ -73,7 +73,7 @@ class HomePage extends StatelessWidget {
                   // Items
                   Container(                 
                     alignment: Alignment.centerLeft,
-                    margin: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+                    margin: const EdgeInsets.symmetric(vertical: 20, horizontal: 10),
                     child: Text(
                       "Best sellings",
                       style: TextStyle(
