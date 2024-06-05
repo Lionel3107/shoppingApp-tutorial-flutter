@@ -18,7 +18,11 @@ class CategoriesWidget extends StatelessWidget {
               ),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: [Image.asset("images/1.png", width: 40, height: 40,
+                children: [Image.asset(
+                  // Use i variable to change picture in a loop
+                  "images/$i.png",
+                  width: 40,
+                  height: 40,
                 ),
                 Text(
                   "Sandal",

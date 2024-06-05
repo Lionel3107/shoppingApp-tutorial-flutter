@@ -1,4 +1,5 @@
 import 'package:app/widgets/CatgoriesWidget.dart';
+import 'package:app/widgets/ItemsWidget.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/HomeAppBar.dart';
@@ -68,6 +69,21 @@ class HomePage extends StatelessWidget {
                       ), 
                   ),
                   CategoriesWidget(),
+
+                  // Items
+                  Container(                 
+                    alignment: Alignment.centerLeft,
+                    margin: EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+                    child: Text(
+                      "Best sellings",
+                      style: TextStyle(
+                        fontSize: 25,
+                        fontWeight: FontWeight.bold,
+                        color: Color(0xFF4C53A5),
+                      ),
+                    ),
+                  ),
+                  ItemsWidget()
                 ],
               ))
         ],
